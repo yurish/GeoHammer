@@ -97,7 +97,7 @@ public class WMSCapabilitiesParser {
         }
     }
     
-    private static List<LayerInfo> parseLayersFromXml(String xmlContent) {
+    public static List<LayerInfo> parseLayersFromXml(String xmlContent) {
         List<LayerInfo> layers = new ArrayList<>();
         
         try {
